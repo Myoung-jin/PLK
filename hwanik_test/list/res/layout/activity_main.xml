@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/blog.example.androidui"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <com.markupartist.android.widget.ActionBar
+        android:id="@+id/actionbar"
+        style="@style/ActionBar" />
+
+    
+    <org.taptwo.android.widget.ViewFlow
+        android:id="@+id/viewflow"
+		android:duplicateParentState="true" 
+		android:layout_width="fill_parent" 
+		android:layout_height="0dip"
+		android:layout_weight="1">
+	    
+	</org.taptwo.android.widget.ViewFlow>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#FFFF0000"
+        />
+    <LinearLayout android:layout_width="fill_parent"
+		android:gravity="center_horizontal" android:id="@+id/header_layout"
+		android:orientation="vertical" 
+		android:layout_height="wrap_content">
+		
+        <org.taptwo.android.widget.TitleFlowIndicator
+			android:id="@+id/viewflowindic" 
+			android:layout_height="48dip"
+			android:layout_width="fill_parent"
+			app:footerLineHeight="2dp"
+			app:footerTriangleHeight="10dp" 
+			app:textColor="#A0FF0000" 
+			app:selectedColor="#FFFF0000" 
+			app:footerColor="#FFFF0000" 
+			app:titlePadding="10dp" 
+			app:textSize="17dp" app:selectedSize="18dp" 
+			android:layout_marginTop="10dip" 
+			app:clipPadding="5dp">
+		</org.taptwo.android.widget.TitleFlowIndicator>
+
+	</LinearLayout>
+
+</LinearLayout>
