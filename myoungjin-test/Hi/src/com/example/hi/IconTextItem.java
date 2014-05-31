@@ -1,8 +1,24 @@
 package com.example.hi;
 
+import android.app.ActionBar;
+import android.app.ActionBar.Tab;
+import android.app.Activity;
+import android.app.Fragment;
+import android.app.FragmentTransaction;
 import android.graphics.drawable.Drawable;
+import android.os.Bundle;
+import android.view.KeyEvent;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
 
-public class IconTextItem {
+public class IconTextItem extends Fragment {
 
 	private Drawable mIcon;
 
@@ -10,9 +26,18 @@ public class IconTextItem {
 
 	private boolean mSelectable = true;
 
+
+
+	// 탭을 선택할 객체들을 만들어 준다.
+	
 	public IconTextItem(Drawable icon, String[] obj) {
 		mIcon = icon;
 		mData = obj;
+	}
+
+	private ActionBar getActionBar() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	public IconTextItem(String obj01, String obj02, String obj03) {

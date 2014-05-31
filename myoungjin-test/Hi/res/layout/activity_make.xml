@@ -35,7 +35,9 @@
         android:layout_x="7dp"
         android:layout_y="41dp"
         android:ems="10"
-        android:text="일정 이름" />
+        android:text="일정 이름" //이위로는 입력 상자의 정의
+        android:inputType="text|textCapWords"//입력키패드의 유형정의
+        />
 
     <TextView
         android:id="@+id/textView2"
