@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff888888"
+    >
+    <RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#ffffffff"
+	    >
+
+		<TextView
+		    android:id="@+id/monthText"
+		    android:layout_width="200dp"
+		    android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true"
+		    android:gravity="center_horizontal"
+		    android:text="몇년 몇월 몇일" />
+
+	</RelativeLayout>
+	<RelativeLayout
+    	android:id="@+id/scheduleLayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="4dp"
+	    android:background="#aaaaaaaa"
+	    >
+	    <ListView
+			android:id="@+id/scheduleList"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			
+			android:cacheColorHint="#00000000"
+			android:divider="#00000000"
+			/>
+	</RelativeLayout>
+</LinearLayout>

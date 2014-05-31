@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hi.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hi.DayActivity"
+            android:label="@string/title_activity_day" >
+        </activity>
+        <activity
+            android:name="com.example.hi.DayInfo"
+            android:label="@string/title_activity_day_info" >
+        </activity>
+        <activity
+            android:name="com.example.hi.GVCalendarActivity"
+            android:label="@string/title_activity_gvcalendar" >
+        </activity>
+        <activity
+            android:name="com.example.hi.CalendarAdapter"
+            android:label="@string/title_activity_calendar_adapter" >
+        </activity>
+        <activity
+            android:name="com.example.hi.Nfsdaaf"
+            android:label="@string/title_activity_nfsdaaf" >
+        </activity>
+        <activity
+            android:name="com.example.hi.ListView"
+            android:label="@string/title_activity_list_view" >
+        </activity>
+        <activity
+            android:name="com.example.hi.List"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name="com.example.hi.Make"
+            android:label="@string/title_activity_make" >
+        </activity>
+    </application>
+
+</manifest>

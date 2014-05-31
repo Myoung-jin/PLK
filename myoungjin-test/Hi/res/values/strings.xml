@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hi</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_day">MainActivity</string>
+    <string name="title_activity_day_info">DayInfo</string>
+    <string name="title_activity_gvcalendar">GVCalendarActivity</string>
+    <string name="title_activity_calendar_adapter">CalendarAdapter</string>
+    <string name="title_activity_nfsdaaf">Nfsdaaf</string>
+    <string name="title_activity_list_view">ListView</string>
+    <string name="title_activity_list">List</string>
+    <string name="title_activity_make">Make</string>
+
+</resources>
